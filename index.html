@@ -27,6 +27,29 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <!-- TEXT GLOW -->
+<style>
+  .glow:hover
+  {
+    font-size: 16px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #40d32c, 0 0 40px #60e62b, 0 0 50px #23b11e, 0 0 60px #53ec3e, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 30px #060886, 0 0 40px #1719a1, 0 0 50px #1b2899, 0 0 60px #321b9b, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+  
+</style>
+
 </head>
 
 <body>
@@ -42,8 +65,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="assets/Ayush Srivastava's Resume..pdf" download>My Resume</a></li>
+          <li><a class="nav-link scrollto " href="#about">About</a></li>
+          <li><a class="nav-link scrollto glow" href="assets/Ayush Srivastava's Resume..pdf" download >My Resume</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#work">Work</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -59,9 +82,9 @@
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
-        <div class="container">
+        <div class="container" style="margin-top: 32%;">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Ayush Srivastava</h1>
+          <h1 class="hero-title mb-4">I'm Ayush Srivastava</h1>
           <p class="hero-subtitle"><span class="typed" data-typed-items="Python Developer, FrontEnd Developer, Web Developer, Freelancer, "></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
@@ -89,8 +112,8 @@
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>Ayush Srivastava</span></p>
                         <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
-                        <p><span class="title-s">Email: </span> <span><a href="mail to:ayushsrivastava1011@gmail.com">ayushsrivastava1011@gmail.com</a></span></p>
-                        <p><span class="title-s">Phone: </span> <span>(+91)7897909054</span></p>
+                        <p><span class="title-s">Email: </span> <span style="font-size: 15px;"><a href="mail to:ayushsrivastava1011@gmail.com">ayushsrivastava1011@gmail.com</a></span></p>
+                        <p><span class="title-s">Phone: </span> <span><a href="tel:7897909054">+917897909054</a></span></p>
                       </div>
                     </div>
                   </div>
@@ -515,7 +538,7 @@
     </div>
   </footer><!-- End  Footer -->
 
-  <!-- <div id="preloader"></div> -->
+  <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
